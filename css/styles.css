@@ -1,0 +1,142 @@
+body{
+  font-family: 'Montserrat';
+}
+h1,h2,h3{
+font-family: 'Montserrat-Bold';
+}
+ h3{
+
+  padding:10px 0 0 10px;
+  text-align: center;
+}
+h2{
+  color: #000;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+p{
+  color: grey;
+}
+.big-heading{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#features{
+padding: 7% 13%;
+background-color: #fff;
+position:relative;
+z-index: 1;
+}
+/*title section*/
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: auto;
+}
+.nav-item{
+  padding-right:1.5rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-Light;
+  color: #fff;
+}
+.download-button{
+  margin:3% 3% 0 3%;
+}
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.logo{
+  color: #ef8172;
+  text-align: center;
+}
+.logo:hover{
+  background-color: #ff4c68;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+/*Testimonial Section*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:10px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-image{
+  width:10%;
+  margin:10px 10px 10px 10px;
+}
+.carousel-item{
+  padding: 7% 13%;
+}
+/*Pricing section*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+@media (max-width:1028px){
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  h1{
+    text-align: center;
+
+  }
+}
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  padding-bottom: 100px;
+}
+.test{
+  color:#fff;
+  text-align: center;
+  font-family:"Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 4.5;
+}
+.btn-cta{
+  margin:10px;
+}
+/*footer*/
+#footer{
+  text-align: center;
+  padding:100px;
+}
+.social{
+  margin: 10px 10px;
+}
